@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outils pour vitrier professionnel – Boutique & Guide</title>
+  <meta name="description" content="Outils pour vitrier professionnel : coupe‑verre, ventouses, tréteaux, spatules, gants anti‑coupure. One‑page style Shopify avec avis, comparatif, FAQ et lien partenaire vitrier Paris." />
+  <meta name="generator" content="Shopify" />
+  <style>
+    :root{--bg:#f7f8fb;--fg:#1b2430;--muted:#667085;--card:#ffffff;--border:#e5e7eb;--brand:#1a73e8;--accent:#0c8b4c;--ink:#0f172a}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif}
+    a{color:inherit;text-decoration:none}
+    svg{display:block}
+    /* Header */
+    .header{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--border)}
+    .header__inner{max-width:1200px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand__logo{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:var(--brand);color:#fff;font-weight:800}
+    .nav{display:flex;gap:18px;color:var(--muted)}
+    .btn{background:var(--brand);color:#fff;border:0;border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer}
+    .btn--ghost{background:#eef2f6;color:var(--fg)}
+    .badge{background:#111827;color:#fff;border-radius:999px;padding:2px 8px;margin-left:6px;font-size:12px}
+    /* Hero */
+    .hero{max-width:1200px;margin:22px auto;display:grid;grid-template-columns:1.2fr .8fr;gap:16px;padding:0 20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;overflow:hidden;position:relative}
+    .hero__art{height:420px;display:grid;place-items:center;background:linear-gradient(135deg,#1a73e8 0%,#0c8b4c 100%)}
+    .hero__content{position:absolute;left:24px;right:24px;bottom:24px;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+    .h1{font-size:34px;margin:0 0 8px}
+    .sub{color:#e6edf5;margin:0 0 14px}
+    .stars{color:#ffd166}
+    /* Sections / products */
+    .section{max-width:1200px;margin:28px auto;padding:0 20px}
+    .section h2{margin:6px 0 14px;font-size:24px}
+    .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .product-card{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:18px;overflow:hidden;background:var(--card);transition:.2s}
+    .product-card:hover{box-shadow:0 8px 24px rgba(2,8,23,.06)}
+    .thumb{height:170px;display:grid;place-items:center;background:#f2f5f9}
+    .info{padding:12px}
+    .title{margin:4px 0 8px;font-size:16px}
+    .price{color:var(--accent);font-weight:800}
+    .review-line{color:#8b5e00;font-size:13px;margin-top:4px}
+    .buy{margin-top:auto;padding:12px;border-top:1px solid var(--border);display:flex;gap:8px}
+    .btn-small{padding:8px 10px;border-radius:10px;border:0;cursor:pointer;background:var(--brand);color:#fff}
+    /* Cart drawer */
+    .cart{position:fixed;top:0;right:0;width:380px;max-width:92vw;height:100vh;background:#0f172a;color:#e5e7eb;border-left:1px solid #172554;transform:translateX(100%);transition:.25s ease;z-index:100}
+    .cart.open{transform:translateX(0)}
+    .cart header{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #1f2b54}
+    .cart .items{max-height:calc(100vh - 220px);overflow:auto;padding:12px}
+    .cart .item{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;border-bottom:1px solid #1f2b54;padding:10px 0}
+    .cart .mini{width:46px;height:46px;border-radius:10px;background:#111c3a;display:grid;place-items:center}
+    .qty{display:flex;align-items:center;gap:8px}
+    .qty button{background:#1f2b54;color:#e5e7eb;border:0;width:26px;height:26px;border-radius:8px;cursor:pointer}
+    .cart footer{position:absolute;left:0;right:0;bottom:0;border-top:1px solid #1f2b54;padding:14px}
+    .row{display:flex;justify-content:space-between;margin:6px 0}
+    /* Content SEO */
+    .content{max-width:900px;margin:20px auto;padding:0 20px;color:#3b4756}
+    .content h2{font-size:22px;margin:18px 0 10px}
+    .content h3{font-size:18px;margin:14px 0 8px;color:#253141}
+    .content p{margin:8px 0}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--border)}
+    th,td{border:1px solid var(--border);padding:10px;text-align:left}
+    thead tr{background:#f0f3f8}
+    /* Footer */
+    footer{max-width:1200px;margin:40px auto 20px;padding:0 20px;text-align:center;color:#667085}
+    @media (max-width:1000px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="shopify-section" id="shopify-section-header" data-section-id="header" data-section-type="header">
+    <div class="header">
+      <div class="header__inner">
+        <a class="brand" href="#top" aria-label="Accueil">
+          <span class="brand__logo">V</span>
+          <strong>Vitrinex Pro</strong>
+        </a>
+        <nav class="nav" aria-label="Navigation principale">
+          <a href="#produits">Produits</a>
+          <a href="#guide">Guide</a>
+          <a href="#comparatif">Comparatif</a>
+        </nav>
+        <button class="btn" id="openCartBtn">Panier <span class="badge" id="cartCount">0</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero (icon illustration instead of photo) -->
+  <section class="hero shopify-section" id="hero" data-section-id="slideshow" data-section-type="slideshow">
+    <article class="card" aria-label="Présentation outils vitrier">
+      <div class="hero__art">
+        <!-- Inline SVG hero illustration -->
+        <svg width="220" height="220" viewBox="0 0 220 220" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#e6f0ff"/><stop offset="1" stop-color="#d1fae5"/>
+            </linearGradient>
+          </defs>
+          <rect x="10" y="10" width="200" height="200" rx="16" fill="url(#g1)" stroke="#fff" stroke-opacity=".6"/>
+          <!-- Glass pane -->
+          <rect x="40" y="40" width="140" height="100" rx="8" fill="#bfe3ff" stroke="#ffffff" stroke-width="3" opacity=".9"/>
+          <path d="M45 60 L175 60" stroke="#ffffff" stroke-opacity=".7" stroke-width="3"/>
+          <!-- Suction cups -->
+          <circle cx="80" cy="125" r="14" fill="#0ea5e9"/><circle cx="140" cy="125" r="14" fill="#0ea5e9"/>
+          <rect x="93" y="120" width="34" height="10" rx="5" fill="#1e293b"/>
+        </svg>
+      </div>
+      <div class="hero__content">
+        <h1 class="h1">Outils pour vitrier professionnel – Boutique & Guide</h1>
+        <p class="sub">Sélection d’outils (vitres & miroiterie) avec conseils de choix, comparatif et avis. <span class="stars">★★★★★</span> <small>(moyenne 4,5/5)</small></p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="#produits">Voir les produits</a>
+          <a class="btn btn--ghost" href="#guide">Guide d'achat</a>
+        </div>
+      </div>
+    </article>
+    <aside class="card" style="padding:16px">
+      <h3>Partenaire vitrier à Paris</h3>
+      <p style="color:var(--muted)">Remplacement de vitrage, sécurisation temporaire.</p>
+      <a class="btn" href="https://vitrier.belmard-batiment.fr/" target="_blank" rel="dofollow noopener">Contacter le vitrier partenaire</a>
+    </aside>
+  </section>
+
+  <!-- Produits -->
+  <section class="section shopify-section" id="produits" data-section-id="collection" data-section-type="collection-template">
+    <h2>Produits phares – Outils pour vitrier professionnel</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- Snippet Avis (JSON-LD) -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Vitrinex Pro","url":"https://example.com/vitrinex-pro","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"150"}}
+  </script>
+
+  <!-- Contenu SEO + comparatif + avis + FAQ -->
+  <section class="content" id="guide">
+    <h2>Outils pour vitrier professionnel : guide d’achat rapide</h2>
+    <p>Pour travailler vite et proprement, un vitrier s’équipe d’un coupe‑verre à molette carbure (réservoir d’huile conseillé), de ventouses à leviers, de tréteaux rigides, de cales calibrées, de spatules inox et de grattoirs à lames sécables. Des EPI (gants EN388, lunettes EN166) sont indispensables pour limiter les risques.</p>
+
+    <h3>Coupe‑verre & accessoires</h3>
+    <p>Molette carbure polie, pression constante et lubrification adaptée au verre float garantissent une amorce régulière et limitent les micro‑éclats.</p>
+
+    <h3>Ventouses & manutention</h3>
+    <p>Vérifiez la charge admissible et l’état des lèvres avant levage. Sur grands formats, travaillez en binôme et utilisez des tréteaux stables.</p>
+
+    <h3>Pose, calage & finitions</h3>
+    <p>Cales d’assise/dilatation pour l’alignement et la tenue, mastics compatibles (silicone neutre/oxime), spatules inox pour une finition propre.</p>
+
+    <h2 id="comparatif">Comparatif express des meilleurs outils</h2>
+    <table>
+      <thead><tr><th>Produit</th><th>Usage</th><th>Atout clé</th><th>Prix indicatif</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Coupe‑verre carbure à réservoir</td><td>Coupe droite régulière</td><td>Molette carbure + lubrification</td><td>39,90 €</td><td>4,6/5</td></tr>
+        <tr><td>Ventouse double à levier 100 kg</td><td>Manutention vitrage/miroir</td><td>Verrou de sécurité, forte adhérence</td><td>29,00 €</td><td>4,5/5</td></tr>
+        <tr><td>Tréteaux pliants pro (x2)</td><td>Support de coupe/pose</td><td>Pieds antidérapants, charge élevée</td><td>79,00 €</td><td>4,4/5</td></tr>
+        <tr><td>Spatule inox + grattoir</td><td>Finitions / nettoyage</td><td>Lame sécable, bord poli</td><td>14,90 €</td><td>4,5/5</td></tr>
+        <tr><td>Gants anti‑coupure EN388</td><td>Sécurité manutention</td><td>Grip renforcé, protection élevée</td><td>12,50 €</td><td>4,7/5</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="avis">Avis clients (moyenne 4,5/5)</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px">
+      <blockquote style="margin:0;border:1px solid var(--border);padding:12px;border-radius:12px;background:#fff">
+        <strong>★★★★★</strong> « Ventouse très fiable, bonne prise sur miroir ». <br><small>— Claire M., artisan vitrière</small>
+      </blockquote>
+      <blockquote style="margin:0;border:1px solid var(--border);padding:12px;border-radius:12px;background:#fff">
+        <strong>★★★★☆</strong> « Coupe‑verre précis, coupe nette et régulière ». <br><small>— Romain Miroiterie</small>
+      </blockquote>
+      <blockquote style="margin:0;border:1px solid var(--border);padding:12px;border-radius:12px;background:#fff">
+        <strong>★★★★★</strong> « Gants anti‑coupure très efficaces, bonne dextérité ». <br><small>— Atelier Vitro‑Pose</small>
+      </blockquote>
+    </div>
+
+    <h2 id="faq">FAQ – Outils pour vitrier professionnel</h2>
+    <h3>Quelle molette choisir pour un coupe‑verre ?</h3>
+    <p>Une molette en carbure de tungstène polie offre la meilleure longévité et une amorce régulière. Ajoutez une lubrification à l’huile pour limiter les micro‑éclats.</p>
+    <h3>Ventouse double ou triple ?</h3>
+    <p>La double convient à la plupart des chantiers. La triple est indiquée pour grands formats/charges élevées. Vérifiez toujours la charge admissible.</p>
+    <h3>Quelles cales utiliser ?</h3>
+    <p>Associez cales d’assise et de dilatation pour garantir alignement, évacuation des charges et tenue dans le temps.</p>
+
+    <p style="margin-top:18px">
+      Besoin d’une intervention d’urgence ou d’un remplacement de vitrage ?
+      <a class="btn" href="https://vitrier.belmard-batiment.fr/" target="_blank" rel="dofollow noopener">Contacter le vitrier partenaire</a>
+    </p>
+  </section>
+
+  <!-- Footer (clean, requested removal applied) -->
+  <footer class="shopify-section" data-section-id="footer" data-section-type="footer">
+    <small>© 2025 Vitrinex Pro</small>
+  </footer>
+
+  <!-- JS catalogue + icons + panier -->
+  <script>
+    // Minimal icon library (inline SVG strings)
+    const icons = {
+      coupeverre: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Coupe‑verre">
+          <rect x="8" y="50" width="94" height="10" rx="5" fill="#0ea5e9"/><!-- handle -->
+          <rect x="82" y="45" width="20" height="20" rx="4" fill="#1f2937"/><!-- head -->
+          <rect x="86" y="49" width="12" height="12" rx="2" fill="#94a3b8"/><!-- wheel block -->
+          <rect x="88" y="51" width="8" height="8" rx="2" fill="#e5e7eb"/><!-- wheel -->
+        </svg>`,
+      ventouse: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Ventouse">
+          <circle cx="40" cy="60" r="18" fill="#0ea5e9"/><circle cx="70" cy="60" r="18" fill="#0ea5e9"/>
+          <rect x="46" y="56" width="18" height="8" rx="4" fill="#1e293b"/>
+        </svg>`,
+      treteaux: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Tréteau">
+          <rect x="20" y="30" width="70" height="10" rx="2" fill="#475569"/>
+          <path d="M25 40 L40 90 M85 40 L70 90" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+        </svg>`,
+      spatule: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Spatule">
+          <rect x="30" y="30" width="50" height="30" rx="6" fill="#94a3b8"/>
+          <rect x="50" y="60" width="10" height="30" rx="4" fill="#1f2937"/>
+        </svg>`,
+      gants: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Gants anti‑coupure">
+          <path d="M50 25 L60 25 L62 55 L48 55 Z" fill="#0ea5e9"/><path d="M64 25 L74 25 L76 55 L62 55 Z" fill="#0ea5e9"/>
+          <rect x="44" y="55" width="36" height="18" rx="6" fill="#1e293b"/>
+        </svg>`,
+      cales: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Cales de pose">
+          <rect x="30" y="50" width="50" height="12" rx="2" fill="#475569"/>
+          <rect x="35" y="66" width="40" height="10" rx="2" fill="#94a3b8"/>
+        </svg>`,
+      marteau: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Marteau vitrier">
+          <rect x="26" y="46" width="44" height="10" rx="2" fill="#1f2937"/>
+          <rect x="60" y="40" width="10" height="40" rx="4" fill="#fb923c"/>
+        </svg>`,
+      pince: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Pince">
+          <path d="M40 40 L55 55 L40 70" stroke="#1f2937" stroke-width="8" stroke-linecap="round"/>
+          <path d="M70 40 L55 55 L70 70" stroke="#1f2937" stroke-width="8" stroke-linecap="round"/>
+        </svg>`,
+      grattoir: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Grattoir">
+          <rect x="30" y="30" width="50" height="18" rx="4" fill="#94a3b8"/>
+          <rect x="50" y="48" width="10" height="32" rx="4" fill="#1f2937"/>
+        </svg>`,
+      mastic: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Mastic vitrier">
+          <rect x="40" y="26" width="30" height="50" rx="6" fill="#fde68a" stroke="#b45309"/>
+          <rect x="46" y="76" width="18" height="8" rx="4" fill="#b45309"/>
+        </svg>`,
+      lame: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Lame carbure">
+          <rect x="30" y="50" width="50" height="12" rx="3" fill="#94a3b8" stroke="#e5e7eb"/>
+          <circle cx="55" cy="56" r="3" fill="#1f2937"/>
+        </svg>`,
+      equerre: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Équerre">
+          <path d="M30 30 L30 80 L80 80" stroke="#1f2937" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <path d="M30 70 L40 70 M30 60 L50 60 M30 50 L60 50" stroke="#94a3b8" stroke-width="4"/>
+        </svg>`,
+      scie: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Scie à métaux">
+          <rect x="30" y="50" width="40" height="10" rx="2" fill="#1f2937"/>
+          <rect x="70" y="46" width="10" height="18" rx="4" fill="#ef4444"/>
+        </svg>`,
+      pinceUni: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Pince universelle">
+          <path d="M38 40 L55 55 L38 70" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+          <path d="M72 40 L55 55 L72 70" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+        </svg>`,
+      tournevis: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Tournevis">
+          <rect x="50" y="30" width="10" height="40" rx="4" fill="#1f2937"/>
+          <rect x="46" y="70" width="18" height="16" rx="6" fill="#10b981"/>
+        </svg>`,
+      metre: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Mètre ruban">
+          <rect x="34" y="34" width="42" height="42" rx="10" fill="#fde047"/><rect x="54" y="50" width="26" height="10" rx="4" fill="#1f2937"/>
+        </svg>`,
+      niveau: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Niveau à bulle">
+          <rect x="25" y="50" width="60" height="14" rx="7" fill="#22c55e"/><circle cx="55" cy="57" r="5" fill="#fef9c3"/>
+        </svg>`,
+      perceuse: () => `
+        <svg width="110" height="110" viewBox="0 0 110 110" role="img" aria-label="Perceuse sans fil">
+          <rect x="30" y="40" width="42" height="18" rx="6" fill="#2563eb"/><rect x="58" y="58" width="8" height="16" rx="3" fill="#1f2937"/><rect x="38" y="58" width="14" height="10" rx="3" fill="#93c5fd"/>
+        </svg>`
+    };
+
+    const products = [
+      {id:1, name:"Coupe‑verre carbure", price:39.90, icon:"coupeverre"},
+      {id:2, name:"Ventouse double", price:29.00, icon:"ventouse"},
+      {id:3, name:"Tréteaux pliants", price:79.00, icon:"treteaux"},
+      {id:4, name:"Spatule inox", price:14.90, icon:"spatule"},
+      {id:5, name:"Gants anti‑coupure EN388", price:12.50, icon:"gants"},
+      {id:6, name:"Cales de pose", price:9.90, icon:"cales"},
+      {id:7, name:"Marteau vitrier", price:19.90, icon:"marteau"},
+      {id:8, name:"Pince à arrondir", price:24.00, icon:"pince"},
+      {id:9, name:"Grattoir vitrier", price:11.90, icon:"grattoir"},
+      {id:10, name:"Mastic vitrier", price:8.90, icon:"mastic"},
+      {id:11, name:"Lame carbure", price:5.90, icon:"lame"},
+      {id:12, name:"Équerre de pose", price:17.90, icon:"equerre"},
+      {id:13, name:"Ventouse triple", price:39.00, icon:"ventouse"},
+      {id:14, name:"Scie à métaux", price:22.50, icon:"scie"},
+      {id:15, name:"Pince universelle", price:14.90, icon:"pinceUni"},
+      {id:16, name:"Tournevis plat", price:6.90, icon:"tournevis"},
+      {id:17, name:"Tournevis cruciforme", price:6.90, icon:"tournevis"},
+      {id:18, name:"Mètre ruban", price:4.90, icon:"metre"},
+      {id:19, name:"Niveau à bulle", price:9.90, icon:"niveau"},
+      {id:20, name:"Perceuse sans fil", price:89.00, icon:"perceuse"}
+    ];
+
+    const grid = document.getElementById('productGrid');
+    grid.innerHTML = products.map(p => `
+      <article class="product-card shopify-product-card" data-product-id="${p.id}">
+        <div class="thumb">${(icons[p.icon] ? icons[p.icon]() : icons['coupeverre']())}</div>
+        <div class="info">
+          <div class="review-line">★★★★★ <strong>4,5/5</strong> <span style="color:#98a2b3">(150 avis)</span></div>
+          <h3 class="title">${p.name}</h3>
+          <div class="price">${p.price.toFixed(2).replace('.',',')} €</div>
+        </div>
+        <div class="buy">
+          <button class="btn-small add" data-id="${p.id}">Ajouter au panier</button>
+        </div>
+      </article>
+    `).join('');
+
+    // Cart
+    const cart = [];
+    const cartEl = document.createElement('aside');
+    cartEl.className = 'cart';
+    cartEl.innerHTML = `
+      <header><strong>Votre panier</strong><button class="btn btn--ghost" id="closeCartBtn">Fermer</button></header>
+      <div class="items" id="cartItems"></div>
+      <footer>
+        <div class="row"><span>Sous‑total</span><strong id="cartSubtotal">0,00 €</strong></div>
+        <button class="btn" style="width:100%">Procéder au paiement</button>
+        <div style="color:#94a3b8;margin-top:6px">Paiement démo.</div>
+      </footer>`;
+    document.body.appendChild(cartEl);
+
+    const openCartBtn = document.getElementById('openCartBtn');
+    const closeCartBtn = () => cartEl.classList.remove('open');
+    document.addEventListener('click', (e)=>{ if(e.target && e.target.id==='closeCartBtn') closeCartBtn(); });
+    openCartBtn.addEventListener('click', ()=> cartEl.classList.add('open'));
+
+    function addToCart(id){
+      const prod = products.find(p=>p.id===id);
+      const line = cart.find(i=>i.id===id);
+      if(line){ line.qty++; } else { cart.push({id:prod.id, name:prod.name, price:prod.price, icon:prod.icon, qty:1}); }
+      renderCart(); cartEl.classList.add('open');
+    }
+    function changeQty(id, d){
+      const i = cart.findIndex(x=>x.id===id);
+      if(i<0) return; cart[i].qty += d; if(cart[i].qty<=0) cart.splice(i,1); renderCart();
+    }
+    function fmt(n){return n.toFixed(2).replace('.',',')+' €'}
+    function renderCart(){
+      const items = document.getElementById('cartItems');
+      const subtotalEl = document.getElementById('cartSubtotal');
+      const count = cart.reduce((s,i)=>s+i.qty,0);
+      document.getElementById('cartCount').textContent = count;
+      items.innerHTML = cart.map(i=>`
+        <div class="item">
+          <div class="mini">${(icons[i.icon] ? icons[i.icon]() : icons['coupeverre']())}</div>
+          <div><div style="font-weight:700">${i.name}</div><div style="color:#94a3b8">${fmt(i.price)}</div></div>
+          <div class="qty">
+            <button aria-label="Retirer 1" onclick="changeQty(${i.id},-1)">−</button>
+            <span>${i.qty}</span>
+            <button aria-label="Ajouter 1" onclick="changeQty(${i.id},1)">+</button>
+          </div>
+        </div>
+      `).join('') || '<div style="color:#94a3b8">Votre panier est vide.</div>';
+      const subtotal = cart.reduce((s,i)=>s+i.price*i.qty,0);
+      subtotalEl.textContent = fmt(subtotal);
+    }
+    document.querySelectorAll('.add').forEach(b=> b.addEventListener('click', ()=> addToCart(parseInt(b.dataset.id,10)) ));
+    window.changeQty = changeQty;
+  </script>
+</body>
+</html>
